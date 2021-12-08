@@ -1,0 +1,10 @@
+2021-12-07 13:21:03,590 root INFO Test execution started: demo_test
+2021-12-07 13:21:03,592 root INFO Browser: chrome
+2021-12-07 13:21:03,593 root INFO Environment: devenv
+2021-12-07 13:21:03,594 root INFO Using data:
+    user_name: second_user_for_demo
+    url: http://automationpractice.com/index.php?controller=authentication&back=my-account
+2021-12-07 13:21:03,596 root ERROR ModuleNotFoundError: No module named 'lesson11'
+Traceback (most recent call last):
+ModuleNotFoundError: No module named 'lesson11'
+

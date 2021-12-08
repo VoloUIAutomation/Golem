@@ -1,0 +1,68 @@
+{
+    "tests": [
+        {
+            "test_file": "demo_test",
+            "test": "setup",
+            "set_name": "7caf31",
+            "environment": "testenv",
+            "result": "code error",
+            "description": "",
+            "browser": "",
+            "test_data": {
+                "user_name": "'user_for_demo'",
+                "env": "{'url': 'http://automationpractice.com/index.php?controller=authentication&back=my-account', 'users': {'user_for_demo': {'user_login': 'golem_demo@mailinator.com', 'user_pswd': 'Volo2020', 'user_name': 'Golem Demo'}, 'second_user_for_demo': {'user_login': 'golem_demo_2@mailinator.com', 'user_pswd': 'Volo2020', 'user_name': 'sGolem Demo'}}, 'name': 'testenv'}"
+            },
+            "steps": [],
+            "errors": [
+                {
+                    "message": "IndentationError: expected an indented block",
+                    "description": "Traceback (most recent call last):\n  File \"C:\\Users\\Dell\\OneDrive\\Рабочий стол\\UIAutomation_ARM-main\\projects\\demo_project\\tests\\demo_test.py\", line 30\n    def teardown(data):\n    ^\nIndentationError: expected an indented block\n"
+                }
+            ],
+            "elapsed_time": null,
+            "timestamp": "2021.12.07.19.41.59.054"
+        },
+        {
+            "test_file": "demo_test",
+            "test": "setup",
+            "set_name": "7e8b86",
+            "environment": "testenv",
+            "result": "code error",
+            "description": "",
+            "browser": "",
+            "test_data": {
+                "user_name": "'second_user_for_demo'",
+                "env": "{'url': 'http://automationpractice.com/index.php?controller=authentication&back=my-account', 'users': {'user_for_demo': {'user_login': 'golem_demo@mailinator.com', 'user_pswd': 'Volo2020', 'user_name': 'Golem Demo'}, 'second_user_for_demo': {'user_login': 'golem_demo_2@mailinator.com', 'user_pswd': 'Volo2020', 'user_name': 'sGolem Demo'}}, 'name': 'testenv'}"
+            },
+            "steps": [],
+            "errors": [
+                {
+                    "message": "IndentationError: expected an indented block",
+                    "description": "Traceback (most recent call last):\n  File \"C:\\Users\\Dell\\OneDrive\\Рабочий стол\\UIAutomation_ARM-main\\projects\\demo_project\\tests\\demo_test.py\", line 30\n    def teardown(data):\n    ^\nIndentationError: expected an indented block\n"
+                }
+            ],
+            "elapsed_time": null,
+            "timestamp": "2021.12.07.19.41.59.065"
+        }
+    ],
+    "params": {
+        "browsers": [
+            {
+                "name": "chrome",
+                "capabilities": {}
+            }
+        ],
+        "processes": 1,
+        "environments": [
+            "testenv"
+        ],
+        "tags": [],
+        "remote_url": ""
+    },
+    "total_tests": 2,
+    "totals_by_result": {
+        "code error": 2
+    },
+    "net_elapsed_time": 0.02,
+    "has_finished": true
+}

@@ -1,0 +1,37 @@
+19:42:27.253 INFO Test execution started: demo_test
+19:42:27.253 INFO Browser: chrome
+19:42:27.254 INFO Environment: testenv
+19:42:27.255 INFO Using data:
+    user_name: user_for_demo
+    url: http://automationpractice.com/index.php?controller=authentication&back=my-account
+19:42:27.265 INFO Store value 'http://automationpractice.com/index.php?controller=authentication&back=my-account' in key 'url'
+19:42:27.266 INFO Store value 'golem_demo@mailinator.com' in key 'login_name'
+19:42:27.267 INFO Store value 'Volo2020' in key 'user_pass'
+19:42:27.268 INFO Store value 'Golem Demo' in key 'account_name'
+19:42:27.269 INFO Test started: test
+19:42:27.271 INFO _____________Navigation_______________
+19:42:27.272 INFO Navigate to: 'http://automationpractice.com/index.php?controller=authentication&back=my-account'
+19:42:32.440 INFO _____________Sign in_______________
+19:42:32.441 INFO Wait for element ('xpath', './/*[@id="email"]', 'Email address input') to be present
+19:42:32.463 INFO Write 'golem_demo@mailinator.com' in element Email address input
+19:42:32.624 INFO Wait for element ('xpath', './/*[@id="passwd"]', 'Password input input') to be present
+19:42:32.652 INFO Write 'Volo2020' in element Password input input
+19:42:32.740 INFO Wait for element ('xpath', './/*[@id="SubmitLogin"]', 'Sign in button') to be present
+19:42:32.763 INFO Click Sign in button
+19:42:35.804 INFO _____________Assert account name_______________
+19:42:35.836 INFO Assert element Account name text is 'isdhkfhlblbf'
+19:42:35.875 ERROR AssertionError: expected element Account name text to be 'isdhkfhlblbf' but was 'Golem Demo'
+Traceback (most recent call last):
+  File "c:\users\dell\appdata\local\programs\python\python38\lib\site-packages\golem\test_runner\test_runner.py", line 202, in run_test_function
+    f(execution.data)
+  File "C:\Users\Dell\OneDrive\Рабочий стол\UIAutomation_ARM-main\projects\demo_project\tests\demo_test.py", line 26, in test
+    account.assert_account_name('isdhkfhlblbf')
+  File "C:\Users\Dell\OneDrive\Рабочий стол\UIAutomation_ARM-main\projects\demo_project\pages\account.py", line 9, in assert_account_name
+    actions.assert_element_text(account_name_span, name)
+  File "c:\users\dell\appdata\local\programs\python\python38\lib\site-packages\golem\actions.py", line 560, in assert_element_text
+    assert element.text == text, msg
+AssertionError: expected element Account name text to be 'isdhkfhlblbf' but was 'Golem Demo'
+19:42:36.087 INFO Test Result: FAILURE
+19:42:36.093 INFO _____________Sing out and check_______________
+19:42:36.111 INFO Click Logout button
+19:42:44.627 INFO Wait for element ('xpath', './/*[@id="SubmitLogin"]', 'Sign in button') to be present

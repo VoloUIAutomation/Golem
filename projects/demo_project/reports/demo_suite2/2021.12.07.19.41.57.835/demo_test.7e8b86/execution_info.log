@@ -1,0 +1,13 @@
+19:41:59.066 INFO Test execution started: demo_test
+19:41:59.067 INFO Browser: chrome
+19:41:59.067 INFO Environment: testenv
+19:41:59.067 INFO Using data:
+    user_name: second_user_for_demo
+    url: http://automationpractice.com/index.php?controller=authentication&back=my-account
+19:41:59.069 ERROR IndentationError: expected an indented block
+Traceback (most recent call last):
+  File "C:\Users\Dell\OneDrive\Рабочий стол\UIAutomation_ARM-main\projects\demo_project\tests\demo_test.py", line 30
+    def teardown(data):
+    ^
+IndentationError: expected an indented block
+

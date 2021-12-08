@@ -1,0 +1,68 @@
+{
+    "tests": [
+        {
+            "test_file": "demo_test",
+            "test": "setup",
+            "set_name": "850fae",
+            "environment": "devenv",
+            "result": "code error",
+            "description": "",
+            "browser": "",
+            "test_data": {
+                "user_name": "'second_user_for_demo'",
+                "env": "{'url': 'http://automationpractice.com/index.php?controller=authentication&back=my-account', 'users': {'user_for_demo': {'user_login': 'golem_demo@mailinator.com', 'user_pswd': 'Volo2020', 'user_name': 'Golem Demo'}, 'second_user_for_demo': {'user_login': 'golem_demo_2@mailinator.com', 'user_pswd': 'Volo2020', 'user_name': 'sGolem Demo'}}, 'name': 'devenv'}"
+            },
+            "steps": [],
+            "errors": [
+                {
+                    "message": "ModuleNotFoundError: No module named 'lesson11'",
+                    "description": "Traceback (most recent call last):\nModuleNotFoundError: No module named 'lesson11'\n"
+                }
+            ],
+            "elapsed_time": null,
+            "timestamp": "2021.12.07.13.21.03.588"
+        },
+        {
+            "test_file": "demo_test",
+            "test": "setup",
+            "set_name": "a71b6f",
+            "environment": "devenv",
+            "result": "code error",
+            "description": "",
+            "browser": "",
+            "test_data": {
+                "user_name": "'user_for_demo'",
+                "env": "{'url': 'http://automationpractice.com/index.php?controller=authentication&back=my-account', 'users': {'user_for_demo': {'user_login': 'golem_demo@mailinator.com', 'user_pswd': 'Volo2020', 'user_name': 'Golem Demo'}, 'second_user_for_demo': {'user_login': 'golem_demo_2@mailinator.com', 'user_pswd': 'Volo2020', 'user_name': 'sGolem Demo'}}, 'name': 'devenv'}"
+            },
+            "steps": [],
+            "errors": [
+                {
+                    "message": "ModuleNotFoundError: No module named 'lesson11'",
+                    "description": "Traceback (most recent call last):\nModuleNotFoundError: No module named 'lesson11'\n"
+                }
+            ],
+            "elapsed_time": null,
+            "timestamp": "2021.12.07.13.21.03.577"
+        }
+    ],
+    "params": {
+        "browsers": [
+            {
+                "name": "chrome",
+                "capabilities": {}
+            }
+        ],
+        "processes": 1,
+        "environments": [
+            "devenv"
+        ],
+        "tags": [],
+        "remote_url": ""
+    },
+    "total_tests": 2,
+    "totals_by_result": {
+        "code error": 2
+    },
+    "net_elapsed_time": 0.03,
+    "has_finished": true
+}
